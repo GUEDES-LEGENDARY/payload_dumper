@@ -41,3 +41,4 @@ $ docker run --rm -v "${PWD}":/data -it payload_dumper /data/payload.bin --out /
 - Copy original images (from full OTA or dumped from devices) to old folder (with part name + .img, ex: boot.img, system.img)
 - run python payload_dumper.py --diff payload.bin
 - file extracted to the output folder you are in.
+- For android devices run this command python payload_dumper.py payload.bin
